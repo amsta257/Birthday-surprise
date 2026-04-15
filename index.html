@@ -18,12 +18,46 @@
             font-size: 24px;
             color: #4caf50;
         }
+        .music-player {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            display: inline-block;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .youtube-container {
+            position: relative;
+            width: 100%;
+            max-width: 560px;
+            margin: 20px auto;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        .youtube-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
     <h1>Happy Birthday, Grace!</h1>
     <div class="celebration">
-        🎉 To my dearest Grace, as you stand at the threshold of your 20s, I find myself looking at you with so much awe and wonder. Happy 20th Birthday to the girl who doesn't just enter a room, but illuminates it. 🌟 Watching you grow has been the greatest journey of my life; you have this rare, beautiful way of being both a soft place to land and a fierce force of nature. 🌊💖 Today isn't just about marking another year; it’s about celebrating the fact that the world has been blessed with your light for two whole decades. You are my favorite 'forever,' the person I want to share every sunrise and every success with. 🌅💍 As you leave your teens behind, know that my love for you is only deepening—it’s a constant rhythm, steady and soulful like the music we love. 🎶core I am so incredibly proud of the woman you are becoming: intelligent, radiant, and so full of life. May this new decade be a masterpiece of joy, a collection of moments where you feel as loved and cherished as you truly are. You are my heart’s home, Grace, and I am staying right here by your side as you conquer your 20s. 🏰🌹 Happy Birthday, my beautiful Golden Girl! 🥂🎂✨🥂 🎂
+        🎉 To my dearest Grace, as you stand at the threshold of your 20s, I find myself looking at you with so much awe and wonder. Happy 20th Birthday to the girl who doesn't just enter a room[...] 
+    </div>
+    
+    <!-- YouTube Music Player -->
+    <div class="music-player">
+        <p>🎵 Your Birthday Song 🎵</p>
+        <div class="youtube-container">
+            <iframe src="https://www.youtube.com/embed/l9O_SFcH4Kk?autoplay=1&loop=1" allow="autoplay"></iframe>
+        </div>
     </div>
 </body>
 </html>
